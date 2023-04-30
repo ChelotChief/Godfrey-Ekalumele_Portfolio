@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gs.css">
+<link rel="stylesheet" href="gsv.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.gs-row-padding img {margin-bottom: 12px}
+.gs-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="gs-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="gs-sidebar gs-bar-block gs-small gs-hide-small gs-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./img/g1.jpg" style="width:100%">
+  <a href="#" class="gs-bar-item gs-button gs-padding-large gs-black">
+    <i class="fa fa-home gs-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="gs-bar-item gs-button gs-padding-large gs-hover-black">
+    <i class="fa fa-user gs-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="gs-bar-item gs-button gs-padding-large gs-hover-black">
+    <i class="fa fa-eye gs-xxlarge"></i>
+    <p>GRAPHICS</p>
+  </a>
+  <a href="#contact" class="gs-bar-item gs-button gs-padding-large gs-hover-black">
+    <i class="fa fa-envelope gs-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="gs-top gs-hide-large gs-hide-medium" id="myNavbar">
+  <div class="gs-bar gs-black gs-opacity gs-hover-opacity-off gs-center gs-small">
+    <a href="#" class="gs-bar-item gs-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="gs-bar-item gs-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="gs-bar-item gs-button" style="width:25% !important">GRAPHICS</a>
+    <a href="#contact" class="gs-bar-item gs-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="gs-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="gs-container gs-padding-32 gs-center gs-black" id="home">
+    <h1 class="gs-jumbo"><span class="gs-hide-small">I'm</span> Godfrey Ekalumele.</h1>
+    <p>Software Developer | Graphics Designer</p>
+    <img src="./img/g2.JPG" alt="boy" class="gs-image" width="992" height="1008">
+  </header>
+
+  <!-- About Section -->
+  <div class="gs-content gs-justify gs-text-grey gs-padding-64" id="about">
+    <h2 class="gs-text-light-grey">Godfrey Ekalumele</h2>
+    <hr style="width:200px" class="gs-opacity">
+    <p>Hey, I am a Software Developer, I can help you solve a problem, build a product project or grow existing project<br>
+      I make clean, attractive and result oriented designs with professional outlook</p>
+    <h3 class="gs-padding-16 gs-text-light-grey">My Skills</h3>
+    <p class="gs-wide">Web Design</p>
+    <div class="gs-white">
+      <div class="gs-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="gs-wide">Graphics Design</p>
+    <div class="gs-white">
+      <div class="gs-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="gs-wide">Adobe Suite</p>
+    <div class="gs-white">
+      <div class="gs-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="gs-row gs-center gs-padding-16 gs-section gs-light-grey">
+      <div class="gs-quarter gs-section">
+        <span class="gs-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="gs-quarter gs-section">
+        <span class="gs-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="gs-quarter gs-section">
+        <span class="gs-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="gs-quarter gs-section">
+        <span class="gs-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="gs-button gs-light-grey gs-padding-large gs-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="gs-padding-16 gs-text-light-grey">My Price</h3>
+    <div class="gs-row-padding" style="margin:0 -16px">
+      <div class="gs-half gs-margin-bottom">
+        <ul class="gs-ul gs-white gs-center gs-opacity gs-hover-opacity-off">
+          <li class="gs-dark-grey gs-xlarge gs-padding-32">Basic</li>
+          <li class="gs-padding-16">Web Design</li>
+          <li class="gs-padding-16">Graphics</li>
+          <li class="gs-padding-16">5GB Storage</li>
+          <li class="gs-padding-16">Mail Support</li>
+          <li class="gs-padding-16">
+            <h2>$ 10</h2>
+            <span class="gs-opacity">per month</span>
+          </li>
+          <li class="gs-light-grey gs-padding-24">
+            <button class="gs-button gs-white gs-padding-large gs-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="gs-half">
+        <ul class="gs-ul gs-white gs-center gs-opacity gs-hover-opacity-off">
+          <li class="gs-dark-grey gs-xlarge gs-padding-32">Pro</li>
+          <li class="gs-padding-16">Web Design</li>
+          <li class="gs-padding-16">Graphics</li>
+          <li class="gs-padding-16">50GB Storage</li>
+          <li class="gs-padding-16">Endless Support</li>
+          <li class="gs-padding-16">
+            <h2>$ 25</h2>
+            <span class="gs-opacity">per month</span>
+          </li>
+          <li class="gs-light-grey gs-padding-24">
+            <button class="gs-button gs-white gs-padding-large gs-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="gs-padding-24 gs-text-light-grey">My Reputation</h3>  
+    <img src="./img/g3.jpg" alt="Avatar" class="gs-left gs-circle gs-margin-right" style="width:10px">
+    <p><span class="gs-large gs-margin-right">Esther Carson.</span> CEO at Trivage Nigeria.</p>
+    <p>His work is usually simple and extraordinary.</p><br>
+    
+    <img src="./img/g3.jpg" alt="Avatar" class="gs-left gs-circle gs-margin-right" style="width:10px">
+    <p><span class="gs-large gs-margin-right">Emmanuel Eromosele.</span> CEO at EOE Jason Construction Company.</p>
+    <p>Godfrey we enhance your work with innovation, style and creativity.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="gs-padding-64 gs-content" id="photos">
+    <h2 class="gs-text-light-grey">My Graphics Designs</h2>
+    <hr style="width:200px" class="gs-opacity">
+
+    <!-- Grid for photos -->
+    <div class="gs-row-padding" style="margin:0 -16px">
+      <div class="gs-half">
+        <img src="./img/trv17-1.jpg" style="width:100%">
+        <img src="./img/TRV41.jpg" style="width:100%">
+        <img src="./img/trv9-1.jpg" style="width:100%">
+        <img src="./img/vv3.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="gs-half">
+        <img src="./img/njg100.jpg" style="width:100%">
+        <img src="./img/spv4.jpg" style="width:100%">
+        <img src="./img/TRV10-2.jpg" style="width:100%">
+        <img src="./img/trv15.jpg" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="gs-padding-64 gs-content gs-text-grey" id="contact">
+    <h2 class="gs-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="gs-opacity">
+
+    <div class="gs-section">
+      <p><i class="fa fa-map-marker fa-fw gs-text-white gs-xxlarge gs-margin-right"></i> Abuja, Nigeria </p>
+      <p><i class="fa fa-phone fa-fw gs-text-white gs-xxlarge gs-margin-right"></i> Phone: +234 705 9586 956</p>
+      <p><i class="fa fa-envelope fa-fw gs-text-white gs-xxlarge gs-margin-right"> </i> Email: chelotldt@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="gs-input gs-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="gs-input gs-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="gs-input gs-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="gs-input gs-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="gs-button gs-light-grey gs-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="gs-content gs-padding-64 gs-text-grey gs-xlarge">
+    <i class="fa fa-facebook-official gs-hover-opacity"></i>
+    <i class="fa fa-instagram gs-hover-opacity"></i>
+    <i class="fa fa-snapchat gs-hover-opacity"></i>
+    <i class="fa fa-pinterest-p gs-hover-opacity"></i>
+    <i class="fa fa-twitter gs-hover-opacity"></i>
+    <i class="fa fa-linkedin gs-hover-opacity"></i>
+    <p class="gs-medium">Powered by <a href="https://www.linkedin.com/in/godfrey-ekalumele-89a307244" target="_blank" class="gs-hover-text-green">LightDesign</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
